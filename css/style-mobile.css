@@ -1,0 +1,269 @@
+
+.container-mobile {
+    display: none;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10vh;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 450px) {
+    .container-mobile {
+        display: grid;
+    }
+}
+
+
+
+
+
+.welcome-container {
+    padding-top: 5vh;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome-logo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.welcome-logo-title, .welcome-logo-character {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.welcome-logo-character {
+    transform: scaleX(-1);
+}
+
+.welcome-logo-rectangle {
+    margin-left: -1%;
+    margin-bottom: 1px;
+    background-color: #fff;
+    width: 70px;
+    height: 15px;
+}
+
+.welcome-image {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-image > img {
+    width: 120%;
+    
+}
+
+.welcome-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.welcome-languages {
+    border: 1px solid #FFFFFF;
+    border-radius: 5vw;
+    background: linear-gradient(to right, #fff 50%, #000 50%);
+    padding-bottom: 1px;
+    padding-top: 2px;
+}
+
+.welcome-languages-button {
+    color: #fff;
+    padding: 2px 4px;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.welcome-languages-button.active {
+    color: #000;
+}
+
+.welcome-contacts-phone {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.welcome-contacts-phone-icon {
+    height: 20px;
+}
+
+.welcome-contacts-phone-number {
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+.tank-container {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.tank-heading {
+    margin-left: 33px;
+}
+
+.tank-title {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.tank-subtitle {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.tank-description {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+
+
+
+.purpose-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 33px;
+}
+
+.purpose-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.purpose-description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+.tech-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 33px;
+}
+
+.tech-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tech-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.tech-details-list {
+    padding-left: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.tech-details-list > li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tech-details-view {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.tech-details-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.tech-details-images > img {
+    width: 100%;
+}
+
+.tech-details-view-text {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.bottom-banner {
+    width: 100%;
+}
+
+.bottom-partners {
+    padding: 0 33px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.bottom-partners > div {
+    display: grid;
+    grid-template-rows: 50px auto;
+    gap: 10px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.bottom-partners > div > img {
+    width: 100%;
+}
+
+.bottom-partners > div > p {
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bottom-invitation {
+    padding: 0 33px;
+    padding-bottom: 40px;
+}
+
+.bottom-invitation-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bottom-invitation-subtitle {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}

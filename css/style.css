@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-pc {
+    display: none;
+}
+
+@media only screen and (min-width: 450px) {
+    .container-pc {
+        display: block;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.logo__text, .logo__letter {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.logo__letter {
+    transform: scaleX(-1);
+}
+
+.logo__rectangle {
+    margin-left: -1%;
+    margin-bottom: 1px;
+    background-color: #fff;
+    width: 160px;
+    height: 36.8px;
+}
+
+.title_group {
+    background-image: url('../images/img.png');
+    background-size: 40vw 40vw;
+    background-position: 40vw 5vw;
+    background-repeat: no-repeat;
+    
+    margin: 0 10vw;
+    width: 85vw;
+    height: 50vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-top: 19%;
+}
+
+.title__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: -1.8rem;
+}
+
+
+
+
+
+
+
+
+.cont {
+    opacity: 1;
+
+    position: relative;
+
+    margin-top: 7vw;
+}
+
+.line {
+    position: absolute;
+
+    width: 10vw;
+    height: 1px;
+    background: linear-gradient(to right, #000000, #acc4ad);
+
+    transform: rotate(56.73deg);
+
+
+    margin: 3% 20vw;
+
+}
+
+.smallimg {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+
+    margin-top: -10vw;
+    margin-left: 13vw;
+
+    z-index: 1;
+
+}
+
+
+
+
+.container1 {
+    display: flex;
+    width: 100%;
+    padding: 0 90px;
+    box-sizing: border-box;
+}
+
+.cont1__image {
+    width: 52vw;
+    height: 35vw;
+
+    margin-top: -1vw;
+}
+
+.textcont1 {
+    margin-top: -3%;
+}
+
+.textcont1__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+
+    background: linear-gradient(to bottom, #1a1a1a, #fff 20%);
+    height: 10vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-left: 5%;
+}
+
+.textcont1__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+
+    margin: -10% 5%;
+}
+
+
+
+
+
+.container2 {
+    display: flex;
+    width: calc(100% - 180px);
+    margin: 20vh 90px 0 90px;
+    position: relative;
+}
+
+.imagecontainer{
+    
+}
+
+.cont2__image {
+    width: 20vw;
+    height: 20vw;
+
+    margin-top: 2vw;
+}
+
+
+.textcont2 {
+    margin: 2% 2%;
+
+    width: 65vw;
+}
+
+.textcont2__title {
+    font-size: 3.4rem;
+    font-weight: bold;
+
+    margin-left: 11%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textcont2__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.45rem;
+    font-weight: 300;
+
+    width: 60vw;
+    margin: -3.5% 10%;
+
+
+}
+
+.textcont2-bottom-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+    max-width: 30vw;
+}
+
+.textt {
+    margin-top: 1vw;
+}
+
+
+.bottomcont2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+    display: flex;
+    margin: -2% 10.5%;
+}
+.bottomcont2__text1 {
+    text-align: center;;
+}
+.bottomcont2__text2 {
+    width: 110vw;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.bottomcont2__text2_ {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+.imagecontainer-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+
+
+.contactscontainer {
+    margin-top: 20vw;
+
+    display: grid;
+    place-items: center;
+}
+
+.contccont__bigimage {
+    width: 40vw;
+    height: 40vw;
+
+    margin: auto;
+}
+
+.contccont__images {
+    display: flex;
+
+    margin-top: 1vw;
+
+    font-size: 1.2rem;
+}
+
+.contccont__images > div > img {
+    margin-bottom: 12px;
+}
+
+
+.contccont__imagecont1 {
+    display: grid;
+    place-items: center;
+
+    width: 10vw;
+    margin-right: 10vw;
+}
+
+.contccont__imagecont2 {
+    display: grid;
+    place-items: center;
+
+    width: 20vw;
+    margin-right: 10vw;
+}
+
+.contccont__imagecont3 {
+    display: grid;
+    place-items: center;
+
+    width: 10vw;
+}
+
+.contccont__image1 {
+    width: 10vw;
+    height: 5vw;
+
+    text-align: center;
+
+
+}
+
+.contccont__image2 {
+    width: 10vw;
+    height: 5vw;
+
+    text-align: center;
+
+
+}
+
+.contccont__image3 {
+    width: 5vw;
+    height: 5vw;
+
+    text-align: center;
+}
+
+
+
+.conttext {
+    width: 40vw;
+    margin-top: 2vw;
+
+    text-align: center;
+}
+
+.conttext__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.conttext__text {
+    margin-top: -1vw;
+
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+
+
+.contacts {
+    display: grid;
+    place-items: center;
+
+    margin-top: 5vw;
+
+    display: flex;
+}
+
+.phonenumber {
+    display: flex;
+    align-items: center;
+
+    margin-left: 7vw;
+}
+
+.phonenumber__image {
+
+}
+.phonenumber__img {
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+.phonenumber__text {
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    margin-left: 1.4vw;
+
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.phonenumber__number{
+    
+}
+.phonenumber__number:hover {
+    text-decoration: underline;
+}
+
+.enua_button {
+    box-sizing: border-box;
+
+
+    width: 8.6vw;
+    height: 2.1vw;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 5vw;
+    background: linear-gradient(to right, #fff 50%, #000 50%);
+
+}
+
+.button_ua{
+    margin-left: -.3vw;
+    margin-top: .15vw;
+
+    color: #000;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button_en{
+    margin-left: 2vw;
+    margin-top: .15vw;
+
+    color: #fff;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
