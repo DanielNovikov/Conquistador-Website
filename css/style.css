@@ -134,19 +134,19 @@ body {
 }
 
 .textcont1__title {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: bold;
+}
 
-    height: 10vw;
+.textcont1__title > p {
+    margin-bottom: 35px;
 }
 
 .textcont1__text {
     font-family: 'Inter', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 400;
 
-
-    margin: -10% 5%;
 }
 
 
@@ -180,7 +180,7 @@ body {
 }
 
 .textcont2__title {
-    font-size: 3.4rem;
+    font-size: 2.6rem;
     font-weight: bold;
 
     margin-left: 11%;
@@ -192,15 +192,16 @@ body {
 
 .textcont2__title > P {
     margin-top: 0;
+    margin-bottom: 31px;
 }
 
 .textcont2__text {
     font-family: 'Inter', sans-serif;
-    font-size: 1.45rem;
+    font-size: 1.20rem;
     font-weight: 300;
 
     width: 60vw;
-    margin: -3.5% 10%;
+    margin: 0 10%;
 
 
 }
