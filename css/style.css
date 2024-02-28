@@ -91,7 +91,7 @@ body {
 
     width: 10vw;
     height: 1px;
-    background: linear-gradient(to right, #000000, #acc4ad);
+    background: linear-gradient(to left, #000000, #acc4ad);
 
     transform: rotate(56.73deg);
 
