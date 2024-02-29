@@ -419,6 +419,7 @@ body {
     text-transform: uppercase;
     border: 1px solid white;
     padding: 7px 13px;
+    text-decoration: none;
 }
 
 .button_ua {
